@@ -10,10 +10,10 @@ use gamestate::Gamestate;
 //use rand::Rng;
 
 fn main() {
-    const NR_THREADS: i32 = 16;
-    const NR_FORKS: i32 = 2;
-    const FILENAMES: [&str; 1] = ["e_so_many_books.txt"];
-    //const FILENAMES: [&str; 6] = ["a_example.txt", "b_read_on.txt", "c_incunabula.txt", "d_tough_choices.txt", "e_so_many_books.txt", "f_libraries_of_the_world.txt"];
+    const NR_THREADS: i32 = 1;
+    const NR_FORKS: i32 = 1;
+    //const FILENAMES: [&str; 1] = ["e_so_many_books.txt"];
+    const FILENAMES: [&str; 6] = ["a_example.txt", "b_read_on.txt", "c_incunabula.txt", "d_tough_choices.txt", "e_so_many_books.txt", "f_libraries_of_the_world.txt"];
     for filename in FILENAMES.iter() {
         println!("{}", filename);
 
