@@ -1,0 +1,6 @@
+a -> exhaustively
+b -> all lib books distinct, different sign_up times -> score = libs with shortest signup time first
+c -> 10k small libs, 100k time, duplicate books, distinct scores, all speed 1 -> score = uniqueness * total_score, time doesn't matter
+d -> all books same score, all libs with speed 1, signup 2 -> score = total_score per lib
+e -> short time, many books -> only best count
+f -> schedule small libs later?

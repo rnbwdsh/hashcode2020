@@ -1,0 +1,12 @@
+[package]
+name = "hashcode2020"
+version = "0.1.0"
+authors = ["m"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bit-vec = "0.6"
+rand = "0.3"
+criterion = "0.3.1"
